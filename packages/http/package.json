@@ -1,0 +1,37 @@
+{
+  "name": "@sffs/http",
+  "version": "0.0.1",
+  "description": "@sffs/http",
+  "main": "index.js",
+  "module": "dist/http.esm-bundler.js",
+  "types": "dist/http.d.ts",
+  "unpkg": "dist/http.global.js",
+  "jsdelivr": "dist/http.global.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesixuan",
+    "directory": "packages/http"
+  },
+  "buildOptions": {
+    "name": "SffsHttp",
+    "formats": [
+      "esm-bundler",
+      "esm-browser",
+      "cjs",
+      "global"
+    ]
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": "Vic",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
