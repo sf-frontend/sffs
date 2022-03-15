@@ -1,12 +1,12 @@
 {
-  "name": "@sffs/http",
+  "name": "@sffs/storage",
   "version": "0.0.1",
-  "description": "@sffs/http",
+  "description": "@sffs/storage",
   "main": "index.js",
-  "module": "dist/http.esm-bundler.js",
-  "types": "dist/http.d.ts",
-  "unpkg": "dist/http.global.js",
-  "jsdelivr": "dist/http.global.js",
+  "module": "dist/storage.esm-bundler.js",
+  "types": "dist/storage.d.ts",
+  "unpkg": "dist/storage.global.js",
+  "jsdelivr": "dist/storage.global.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -19,10 +19,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yesixuan",
-    "directory": "packages/http"
+    "directory": "packages/storage"
   },
   "buildOptions": {
-    "name": "SffsHttp",
+    "name": "SffsStorage",
     "formats": [
       "esm-bundler",
       "esm-browser",
@@ -31,11 +31,9 @@
     ]
   },
   "keywords": [
-    "http"
+    "storage"
   ],
   "author": "Vic",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.26.1"
-  }
+  "dependencies": {}
 }
